@@ -37,9 +37,9 @@ _2025.05.05版_
 # はじめに
 > 最終更新: 2025.05.06
 
-![image](https://cdn-ak.f.st-hatena.com/images/fotolife/u/ueponx/20250505/20250505020335.png)
+<img src="media/1.png" width="400px" />
 
-この記事は**reCamera（リカメラ）**のハンズオンの内容です。
+この記事は **reCamera（リカメラ）** のハンズオンの内容です。
 
 ここでは、デバイスのセットアップから基本的な使い方まで、ステップバイステップで説明します。初心者向けにAIビジョン機能を活用するための手順を紹介します。
 
@@ -75,7 +75,7 @@ https://wiki.seeedstudio.com/recamera_getting_started/
 - USBタイプCケーブル
 - その他の付属品
 
-![image](https://cdn-ak.f.st-hatena.com/images/fotolife/u/ueponx/20250505/20250505014952.jpg)
+<img src="media/2.jpg" width="400px" />
 
 ## 電源投入とインジケーターライト
 
@@ -101,7 +101,7 @@ PCが**NCMドライバー**を正しく認識していることを確認して�
 
 Windowsの【デバイスマネージャー】から【 ネットワークアダプター】の項目を確認します。
 
-![image](https://cdn-ak.f.st-hatena.com/images/fotolife/u/ueponx/20250504/20250504122313.png)
+<img src="media/3.png" width="400px" />
 
 <span style="color:red">※ドライバーが見つからない場合は、次の手順でインストールしてください</span>
 
@@ -113,11 +113,11 @@ Windowsの【デバイスマネージャー】から【 ネットワークアダ
 
 **ipconfigでのネットワークデバイスの確認**
 
-![image](https://cdn-ak.f.st-hatena.com/images/fotolife/u/ueponx/20250504/20250504122537.png)
+<img src="media/4.png" width="400px" />
 
 **pingコマンドでの疎通確認**
 
-![image](https://cdn-ak.f.st-hatena.com/images/fotolife/u/ueponx/20250504/20250504122544.png)
+<img src="media/5.png" width="400px" />
 
 ### **UsbNcm Host Device**について
 
@@ -145,20 +145,20 @@ Ethernetポートを使用する場合は、付属のケーブルを使用して
 
 また、デバイスのIPアドレスはDHCP経由で取得されるので、各々のIPアドレス体系となりますのでご注意ください。
 
-![image](https://cdn-ak.f.st-hatena.com/images/fotolife/u/ueponx/20250504/20250504121150.png)
+<img src="media/6.png" width="400px" />
 
 ## 初期設定
 
 ブラウザから**reCamera**のIPアドレス（`192.168.42.1`など）にアクセスし、パスワードを変更してください。このパスワードを忘れないようにしてください。
 <span style="color:red">※忘れた場合は、デバイスを工場出荷時の状態にリセットする必要があります。</span>デフォルトパスワードはユーザネームと同じとなっています。
 
-![image](https://cdn-ak.f.st-hatena.com/images/fotolife/u/ueponx/20250504/20250504123507.png)
+<img src="media/7.png" width="400px" />
 
-![image](https://cdn-ak.f.st-hatena.com/images/fotolife/u/ueponx/20250504/20250504123516.png)
+<img src="media/8.png" width="400px" />
 
-![image](https://cdn-ak.f.st-hatena.com/images/fotolife/u/ueponx/20250504/20250504123511.png)
+<img src="media/9.png" width="400px" />
 
-![image](https://cdn-ak.f.st-hatena.com/images/fotolife/u/ueponx/20250504/20250504123521.png)
+<img src="media/10.png" width="400px" />
 
 ## OSの更新（初期バージョンのreCamera をお持ちの場合）
 
@@ -171,13 +171,13 @@ Ethernetポートを使用する場合は、付属のケーブルを使用して
 5. 初期パスワード（recamera）から新パスワードへの変更ダイアログが表示されるので、パスワードを変更
 6. 管理ページの【三】をクリックし、サイドバーの中にある【System】をクリックし、【System Info】のOSが変更を確認
 
-![image](https://cdn-ak.f.st-hatena.com/images/fotolife/u/ueponx/20250504/20250504125623.png)
+<img src="media/11.png" width="400px" />
 
-![image](https://cdn-ak.f.st-hatena.com/images/fotolife/u/ueponx/20250504/20250504125627.png)
+<img src="media/12.png" width="400px" />
 
-![image](https://cdn-ak.f.st-hatena.com/images/fotolife/u/ueponx/20250504/20250504125630.png)
+<img src="media/13.png" width="400px" />
 
-![image](https://cdn-ak.f.st-hatena.com/images/fotolife/u/ueponx/20250504/20250504130122.png)
+<img src="media/14.png" width="400px" />
 
 これでデバイスへの接続準備が整いました。
 
@@ -204,7 +204,7 @@ Ethernetポートを使用する場合は、付属のケーブルを使用して
 
 reCamera内のNode-REDへのアクセス（USB接続のデフォルトのIPアドレスの場合　http://192.168.42.1:1880/ ）
 
-![image](https://cdn-ak.f.st-hatena.com/images/fotolife/u/ueponx/20250504/20250504130435.png)
+<img src="media/15.png" width="400px" />
 
 ## **Node-RED**プログラミングの基本
 
@@ -222,22 +222,22 @@ https://nodered.org/
 - データの視覚化
 - ユーザー入力の受け取り
 
-![image](https://cdn-ak.f.st-hatena.com/images/fotolife/u/ueponx/20250505/20250505002615.png)
+<img src="media/16.png" width="400px" />
 
 ### **reCameraノード**
 
 ‐ reCameraのLED制御
 
-![image](https://cdn-ak.f.st-hatena.com/images/fotolife/u/ueponx/20250505/20250505004315.png)
+<img src="media/17.png" width="400px" />
 
-![image](https://cdn-ak.f.st-hatena.com/images/fotolife/u/ueponx/20250505/20250505002619.png)
+<img src="media/18.png" width="400px" />
 
 ### **reCamera gimbalノード**
 
 ‐ reCameraに接続するジンバルを制御
 ‐ モーターの角度・スピードの制御及び情報の取得
 
-![image](https://cdn-ak.f.st-hatena.com/images/fotolife/u/ueponx/20250505/20250505002621.png)
+<img src="media/19.png" width="400px" />
 
 ### **VisionAIノード**
 
@@ -247,7 +247,7 @@ https://nodered.org/
    - モデルパラメータの調整
    - 物体検出や認識処理
 
-![image](https://cdn-ak.f.st-hatena.com/images/fotolife/u/ueponx/20250505/20250505002626.png)
+<img src="media/20.png" width="400px" />
 
 ### **sscma（Seeed SenseCraft Model Assistant）ノード**
 
@@ -255,7 +255,7 @@ https://nodered.org/
 
 このノードはサブフローによって構成されています。
 
-![image](https://cdn-ak.f.st-hatena.com/images/fotolife/u/ueponx/20250505/20250505002629.png)
+<img src="media/21.png" width="400px" />
 
 # Node-REDフローの作成方法
 
@@ -267,7 +267,7 @@ https://nodered.org/
 
 **ワークスペースを開いた様子**
 
-![image](https://cdn-ak.f.st-hatena.com/images/fotolife/u/ueponx/20250505/20250505010630.png)
+<img src="media/22.png" width="400px" />
 
 ※開発時にはワークスペースの左下に【My Application】のした部分にある【Login to SenseCraft】ボタンをクリックしてログインをしてください。
 
@@ -275,21 +275,21 @@ https://nodered.org/
 
 【Login to SenseCraft】ボタンをクリックして、ログインのダイアログの【Sign Up】ボタンをクリック
 
-![image](https://cdn-ak.f.st-hatena.com/images/fotolife/u/ueponx/20250505/20250505012110.png)
+<img src="media/23.png" width="400px" />
 
 ユーザ情報の`*`のついた項目を入力します。【Verification Code】の欄はメールアドレス入力後に【Get captcha】をクリックしてメール宛てに届くコードを入力してください。入力が完了したら【Sign Up】ボタンをクリックしてください。
 
-![image](https://cdn-ak.f.st-hatena.com/images/fotolife/u/ueponx/20250505/20250505011816.png)
+<img src="media/24.png" width="400px" />
 
-![image](https://cdn-ak.f.st-hatena.com/images/fotolife/u/ueponx/20250505/20250505011950.png)
+<img src="media/25.png" width="400px" />
 
 ## reCameraサンプルアプリケーション
 
 これらのサンプルプロジェクトは**sscma（Seeed SenseCraft Model Assistant）**のサイトにありクローンして使用する事ができます。
 
-![image](https://cdn-ak.f.st-hatena.com/images/fotolife/u/ueponx/20250505/20250505004921.png)
+<img src="media/26.png" width="400px" />
 
-![image](https://cdn-ak.f.st-hatena.com/images/fotolife/u/ueponx/20250505/20250505004926.png)
+<img src="media/27.png" width="400px" />
 
 このサンプルでは以下の様な機能を持っています。
 
@@ -300,7 +300,7 @@ https://nodered.org/
 
 **実行の様子**
 
-![image](https://cdn-ak.f.st-hatena.com/images/fotolife/u/ueponx/20250505/20250505014031.png)
+<img src="media/28.png" width="400px" />
 
 # 複数のreCamera デバイスの区別方法
 
