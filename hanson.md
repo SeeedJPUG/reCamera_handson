@@ -125,14 +125,14 @@ Windowsの【デバイスマネージャー】から【 ネットワークアダ
 
 ### Windowsでのネットワーク接続問題
 
-**reCamera**のUSBネットワークを使用した後、Windows11でネットワークアクセスに問題がある場合
+**reCamera**のUSBネットワークを使用した後、Windows11でネットワークアクセスに問題がある場合。特にWindows10の場合は確認してください。
 
 1. 【Win+X】を押して【コントロールパネル】をクリック
 2. 【すべてのコントロールパネル項目】→【ネットワーク接続】を選択
 3. 【UsbNcm Host Device】を右クリック
 4. 【プロパティ】→【TCP/IPv4】→【プロパティ】→【詳細設定】→【自動メトリック】のチェックを外す→【インターフェイスメトリック】フィールドに【255】と入力→【OK】ボタンをクリック
 
-詳細については以下をご確認ください。
+Windows10の**UsbNcm Host Device**の導入に関しては詳細については以下をご確認ください。
 
 https://wiki.seeedstudio.com/recamera_network_connection/#-windows-
 
